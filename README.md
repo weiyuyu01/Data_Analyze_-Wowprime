@@ -10,3 +10,5 @@ ex : dcard、ptt、痞客邦等
 2. 針對評論/食記內容進行情感分析翰段詞分析,作為一項參考值,並存成新的CSV檔。 
 3. 利用python程式,一一將CSV檔讀取並匯入至MYSQL。 
 4. 架設API,供使用者存取其指定的集團餐廳的數據內容。
+
+視覺化(Tableau)連結：https://public.tableau.com/app/profile/yichen.lee/viz/_16508197967740/1?publish=yes
