@@ -11,4 +11,4 @@ ex : dcard、ptt、痞客邦等
 3. 利用python程式,一一將CSV檔讀取並匯入至MYSQL。 
 4. 架設API,供使用者存取其指定的集團餐廳的數據內容。
 
-視覺化(Tableau)連結：https://public.tableau.com/app/profile/yichen.lee/viz/_16508197967740/1?publish=yes
+視覺化(Tableau)連結：https://public.tableau.com/app/profile/wei6189/viz/_16539017234830/1#1
