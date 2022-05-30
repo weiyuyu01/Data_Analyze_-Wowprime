@@ -1,0 +1,48 @@
+api 啟動指令
+./api.sh
+api.sh 內容說明
+# 1. 啟動DB
+systemctl stop firewalld
+systemctl start httpd
+systemctl start mariadb
+# 2.啟動 app.py 連線 api
+python3 /root/王品API/app.py
+取得 api 網址
+格式：http://127.0.0.1:10011/資料來源/品牌名稱
+範例：http://127.0.0.1:10011/pixnet/石二鍋
+
+
+api 的 UI 操作介面
+網址：http://127.0.0.1:10011/swagger-ui/
+
+
+操作範例
+
+
+登入資料庫
+帳號root
+密碼dv101
+網址 http://192.168.1.107/adminer.php
+
+登入後選擇 wangsteak 資料庫
+
+
+wangsteak資料庫中共有4個table
+chinatimes
+googlemap
+pixnet
+tripadvisor
+
+table 格式
+chinatimes
+
+
+googlemap
+
+
+pixnet
+
+
+tripadvisor
+
+
